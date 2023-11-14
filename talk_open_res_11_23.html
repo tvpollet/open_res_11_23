@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Open research projects</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Prof. Dr. Thomas Pollet, Northumbria University (thomas.pollet@northumbria.ac.uk)" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Open research projects
+]
+.author[
+### Prof. Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)
+]
+.date[
+### 2023-11-14 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+]
+
+---
+
+
+
+
+
+
+
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 110px;
+height: 128px;
+z-index: 0;
+background-image: url(NU2.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:1em;right:1em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
+
+
+
+
+&lt;style&gt;
+.main-container {
+  max-width: unset;
+}
+&lt;/style&gt;
+
+## Outline
+
+* Two projects
+* One project in more detail
+
+
+&lt;img src="https://media.giphy.com/media/3o7aTskHEUdgCQAXde/giphy.gif" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+## RIS internal Funding
+
+* 'Biblionetrics' project (C. Malcolm, L. Maughan)
+
+--
+
+* Open Research Practices and internal REF ratings (A. Anguera de la Rosa, T. Fitzpartick, C. Malcolm, M. Smith, I. Sutcliffe)
+
+--
+
+&lt;img src="https://media.giphy.com/media/C8Y3dkORr4jjkw4jBJ/giphy.gif" width="400px" style="display: block; margin: auto;" /&gt;
+
+---
+## Biblionetrics
+
+* Identify where we publish open access, who are the most prolific authors? And general bibliometric stuff (2022:2023, &gt;1,300 papers, 770 documents 'Green')
+
+--
+
+* Close but no cigar: 'citedness' (logit .327 +/- .169, _z_ = 1.94, _p_ = .052 -- Odds ratio of around 1.39)
+
+--
+
+* Everything is [here](https://connmal.github.io/Bibliometrix_Northumbria/About.html). Including some network graphs.
+
+&lt;img src="https://media.giphy.com/media/jbKbdoKJOFusHTjl80/giphy-downsized-large.gif" width="250px" style="display: block; margin: auto;" /&gt;
+
+
+---
+## Example: word cloud
+
+
+&lt;img src="word_cloud_example_xaringan.png" width="300px" style="display: block; margin: auto;" /&gt;
+
+---
+## Open Research and REF
+
+* Two independent coders. Very first batch of our internal REF scoring exercise (two raters and moderated score).
+
+--
+
+* Coding scheme developed by Norris et al. (2022).&lt;sup&gt;1&lt;sup&gt; 
+
+--
+
+* 15 practices (e.g., pre-registration available, data available). Generated a count variable.
+
+--
+
+* There was near perfect consistency and the coders met and resolved any discrepancies. **Liberal** coding... .
+
+--
+
+* Reviewer scores 12 point scale (1- → 1 … 4+ → 12). U's excluded (7 - all from psych.).
+
+.footnote[
+[1] Norris, E., Sulevani, I., Finnerty, A. N., &amp; Castro, O. (2022). Assessing Open Science practices in physical activity behaviour change intervention evaluations. BMJ Open Sport &amp; Exercise Medicine, 8(2), e001282. [https://doi.org/10.1136/bmjsem-2021-001282](https://doi.org/10.1136/bmjsem-2021-001282)
+]
+
+???
+Note the limitations of creating a count score.
+
+---
+## Descriptive statistics
+
+
+* 67 psychology papers / 17 applied sciences paper.
+
+--
+
+* Tables. [Individual Practices](Practice.html) and [OR count / Final Score](OR_count_final_Ref_score_table.html).
+
+---
+## Bar chart
+
+
+&lt;img src="Or_practices.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+### Does frequency of OR practices differ between groups?
+
+* Ordinal logistic regression analysis. 
+
+--
+
+* The groups did not significantly differ (Coefficient = 0.5679+/-0.4396, _z_ = 1.292, _p_ = .196). (but small n)
+
+&lt;img src="https://media.giphy.com/media/MDs0DZLHum4BRJglM5/giphy.gif" width="400px" style="display: block; margin: auto;" /&gt;
+
+
+---
+### Associations between OR count and final score
+
+* **Overall**: Somers Dyx : .18, 95% CI .03 to .34.&lt;sup&gt;2&lt;sup&gt; 
+
+--
+
+* **Breakdown by discipline**:  Driven by psychology (.27, 95% CI: .10 to 0.43) - if anything the relationship was _negative_ in AS (-.07, 95% CI: -0.57 to .43).
+
+--
+
+* **Psychology: Breakdown by reviewer**: the association was only reliably present in one of the two reviewers (Reviewer 1 = .09, 95% CI -0.07 to .24; Reviewer 2 = .32, 95% CI = .15 to .48)
+
+
+&lt;img src="https://media.giphy.com/media/3o6MbjkESm6MsOYcta/giphy.gif" width="250px" style="display: block; margin: auto;" /&gt;
+
+--
+
+.footnote[
+[2] Somers, R. H. (1962). A New Asymmetric Measure of Association for Ordinal Variables. American Sociological Review, 27(6), 799–811. https://doi.org/10.2307/209040
+]
+
+---
+## Associations between a given OR practice and final score.
+
+
+* [Big table](Overall_R1_R2.htm)
+
+&lt;img src="https://media.giphy.com/media/l0ExoJBGYUelaOiME/giphy.gif" width="500px" style="display: block; margin: auto;" /&gt;
+
+
+---
+### Many limitations...
+
+* Scheme not apt for AS? Perhaps note even apt for psychology?
+
+--
+
+* Small numbers... .
+
+--
+
+* So many more... .
+
+&lt;img src="https://media.giphy.com/media/yyhJaoPDhCbBu/giphy.gif" width="500px" style="display: block; margin: auto;" /&gt;
+
+
+---
+## Any Questions?
+
+[http://tvpollet.github.io](http://tvpollet.github.io)
+
+These slides: XXX 
+
+&lt;img src="https://media.giphy.com/media/3ohzdRoOp1FUYbtGDu/giphy.gif" width="600px" style="display: block; margin: auto;" /&gt;
+
+---
+## Acknowledgments
+
+* I am indebted to everyone who helped me with these projects.
+
+* The slides were created in [RMarkdown](https://rmarkdown.rstudio.com/) with the [xaringan](https://github.com/yihui/xaringan) package.
+
+* You for listening!
+
+&lt;img src="https://media.giphy.com/media/10avZ0rqdGFyfu/giphy.gif" width="500px" style="display: block; margin: auto;" /&gt;
+
+---
+## Some resources
+
+* [www.ukrn.org](www.ukrn.org)
+* [RepoducibiliTea](https://reproducibilitea.org/)
+* [Center for Open Science](https://www.cos.io/?hsLang=en)
+* [UKRI](https://www.ukri.org/about-us/policies-standards-and-data/good-research-resource-hub/open-research/)
+* [Registered Reports](https://www.cos.io/initiatives/registered-reports)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
