@@ -178,7 +178,7 @@ knitr::include_graphics("https://media.giphy.com/media/3o6MbjkESm6MsOYcta/giphy.
 ## Associations between a given OR practice and final score.
 
 
-* [Big table](Overall_R1_R2.htm)
+* [Big table](Overall_R1_R2.html)
 
 ```{r, out.width = "500px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/l0ExoJBGYUelaOiME/giphy.gif") 
