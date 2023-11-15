@@ -208,7 +208,7 @@ knitr::include_graphics("https://media.giphy.com/media/yyhJaoPDhCbBu/giphy.gif")
 
 [http://tvpollet.github.io](http://tvpollet.github.io)
 
-These slides: XXX 
+These slides: [https://tvpollet.github.io/open_res_11_23/talk_open_res_11_23.html](https://tvpollet.github.io/open_res_11_23/talk_open_res_11_23.html#1)
 
 ```{r, out.width = "600px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/3ohzdRoOp1FUYbtGDu/giphy.gif")
