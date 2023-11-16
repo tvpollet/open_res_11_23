@@ -56,7 +56,7 @@ knitr::include_graphics("https://media.giphy.com/media/3o7aTskHEUdgCQAXde/giphy.
 
 --
 
-* Open Research Practices and internal REF ratings (A. Anguera de la Rosa, T. Fitzpartick, C. Malcolm, M. Smith, I. Sutcliffe)
+* Open Research Practices and internal REF ratings (A. Anguera de la Rosa, T. Fitzpatrick, C. Malcolm, M. Smith, I. Sutcliffe)
 
 --
 
